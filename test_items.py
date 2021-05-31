@@ -4,7 +4,7 @@ link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
 def test_page_contains_add_to_cart_button_without_assert(browser):
     browser.get(link)
-    time.sleep(3)  # при необходимости можно раскоментить :В
+    # time.sleep(30)  # при необходимости можно раскоментить :В
 
     cart = None
     try:
